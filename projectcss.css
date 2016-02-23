@@ -1,0 +1,125 @@
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+.home {
+    text-align: center;
+}
+
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+    opacity: .90;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}
+
+.home h1 {
+    color: purple;
+    font-family: 'Fugaz One', cursive;
+}
+
+.home h2 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 4em;
+    color: yellow;
+}
+
+.home p {
+    color: black;
+    background: cornflowerblue;
+}
+
+.history {
+    background: cornflowerblue;
+}
+
+.history h1 {
+    font-family: 'Fugaz One', cursive;
+    color: yellow;
+}
+
+.history h2 {
+    color: purple;
+}
+
+.box {
+    background: white;
+    border: 6px limegreen solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+figcaption {
+    text-align: right;
+    font-family: serif;
+    font-style: italic;
+    font-size: 1em;
+}
+
+figure {
+    display: table;
+}
+
+.slide h2 {
+    text-align: left;
+}
+
+.slide figure {
+    float: left;
+    margin: 5px;
+   
+}
+
+.today {
+    background: cadetblue;
+}
+
+.today h1 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 4em;
+    color: white;
+}
+
+.today h2 {
+    font-family: 'Fugaz One', cursive;
+    font-size: 2em;
+    color: white;
+}
+
+.front h3 {
+    color: yellow;
+}
+
+.back h3 {
+    color: purple;
+}
+
+.quizslide {
+    background: oldlace;
+}
